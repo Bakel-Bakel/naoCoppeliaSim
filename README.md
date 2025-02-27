@@ -43,22 +43,4 @@ python nao_speak.py
 python nao_track.py
 ```
 
-## Screenshots (Optional)
-Include images or GIFs showing NAO performing different actions in CoppeliaSim.
-
-## License
-This project is open-source under the MIT License. You are free to modify and contribute.
-
-## Contributing
-Contributions are welcome. Follow these steps:
-1. Fork the repository.  
-2. Create a new branch for your feature or fix.  
-3. Submit a pull request for review.  
-
-## Contact & Support
-For questions or collaboration, reach out via:  
-- **Email:** your-email@example.com  
-- **Twitter:** [@yourhandle](https://twitter.com/yourhandle)  
-- **Website:** [your-website.com](https://your-website.com)  
-
-If you find this project useful, consider starring the repository and contributing to its development.
+## Screenshots 

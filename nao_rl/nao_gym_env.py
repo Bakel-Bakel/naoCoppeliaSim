@@ -30,6 +30,9 @@ class NaoCoppeliaEnv(gym.Env):
         self.sim.startSimulation()
         time.sleep(1)
 
+        # Add an iteration counter
+        self.iteration = 0
+
     def safe_get_joint_position(self, joint_handle):
         """ Get joint position with timeout to prevent blocking. """
         start_time = time.time()
@@ -44,6 +47,9 @@ class NaoCoppeliaEnv(gym.Env):
         return 0.0  # Default safe value
 
     def step(self, action):
+        self.iteration += 1  # Increment iteration counter
+        print(f"\n Iteration: {self.iteration}")  # Print iteration count
+
         action = [float(a) for a in action]  # Convert NumPy floats to Python floats
 
         print("Applying Actions:", action)  # Debugging Log

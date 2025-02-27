@@ -1,5 +1,5 @@
 import time
-from coppeliaSimZMQRemoteApi import RemoteAPIClient
+from coppeliasim_zmqremoteapi_client import RemoteAPIClient
 
 client = RemoteAPIClient()
 sim = client.getObject('sim')

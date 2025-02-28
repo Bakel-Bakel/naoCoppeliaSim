@@ -6,9 +6,7 @@
 
 ### Install Dependencies
 Ensure you have Python installed, then install the required package:
-```bash
-pip install coppeliaSimZMQRemoteApi
-```
+
 
 ### Enable ZMQ Remote API in CoppeliaSim
 1. Open CoppeliaSim.  

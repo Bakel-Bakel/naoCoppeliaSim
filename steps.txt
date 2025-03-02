@@ -1,0 +1,22 @@
+1. Download and unzip Coppeliasim 4.7.0 (latest version)
+2. Download and Install python3.X
+
+3. Open terminal and run
+	sudo apt install python3.12-venv
+
+4. Open the code folder. Then open in terminal and run
+	python3 -m venv venv
+	source venv/bin/activate
+5. Go to the coppeliaSim folder (The folder appears after you extract in step 1)
+6. Open in terminal and run
+	./coppeliaSim.sh
+7. Open the code folder in terminal where your venv is running and run the naoWalk.py script
+	pip install numpy
+	python3 -m pip install coppeliasim-zmqremoteapi-client
+	
+	python naoCoppeliaSim/naoWalk.py
+	
+	or
+	
+	python naoWalk.py
+	
